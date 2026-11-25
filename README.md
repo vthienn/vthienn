@@ -1,16 +1,31 @@
-## Hi there 👋
+<p align="center">
+  <img src="./banner.svg" alt="Vthienn // Zennith" width="100%" />
+</p>
+
+```c
+#include <stdio.h>
+
+typedef struct {
+    const char *name;
+    const char *alias;
+    const char *lang;
+} Profile;
+
+int main(void) {
+    const Profile me = { "Vthienn", "Zennith", "C" };
+    printf("%s // %s — %s only.\n", me.name, me.alias, me.lang);
+    return 0;
+}
+```
+
+<p align="left">
+  <img src="https://img.shields.io/badge/C-21262d?style=flat-square&logo=c&logoColor=f0f6fc" alt="C" />
+</p>
 
 <!--
-**vthienn/vthienn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Projects
+- **[ten-project](link-repo)** — Mô tả 1 dòng.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+### Contact
+- `email@domain.com`
 -->
